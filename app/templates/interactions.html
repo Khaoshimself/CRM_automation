@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}interactions{% endblock %}
+
+{% block content %}
+<div id="interactions">
+    <h1>Interactions</h1>
+    <button id="logInteraction">Log Interaction</button>
+    <table>
+       <thead>
+          <tr>
+             <th>Contact</th>
+             <th>Type</th>
+             <th>Date</th>
+             <th>Notes</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Jane Smith</td>
+             <td>Call</td>
+             <td>2024-10-28</td>
+             <td>Discussed upcoming contract.</td>
+          </tr>
+       </tbody>
+    </table>
+ </div>
+ 
+{% endblock %}

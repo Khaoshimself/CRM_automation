@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}tasks{% endblock %}
+
+{% block content %}
+<div id="tasks">
+    <h1>Tasks</h1>
+    <button id="addTask">Add Task</button>
+    <table>
+       <thead>
+          <tr>
+             <th>Task</th>
+             <th>Due Date</th>
+             <th>Status</th>
+             <th>Actions</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Follow-up with John Doe</td>
+             <td>2024-10-30</td>
+             <td>Pending</td>
+             <td>
+                <button>Complete</button>
+                <button>Edit</button>
+             </td>
+          </tr>
+       </tbody>
+    </table>
+ </div>
+ 
+{% endblock %}

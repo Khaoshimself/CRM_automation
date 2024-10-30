@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}contacts{% endblock %}
+
+{% block content %}
+<div id="contacts">
+    <h1>Contacts</h1>
+    <button id="addContact">Add Contact</button>
+    <table>
+       <thead>
+          <tr>
+             <th>Name</th>
+             <th>Email</th>
+             <th>Phone</th>
+             <th>Actions</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>John Doe</td>
+             <td>john@example.com</td>
+             <td>123-456-7890</td>
+             <td>
+                <button>View</button>
+                <button>Edit</button>
+                <button>Delete</button>
+             </td>
+          </tr>
+       </tbody>
+    </table>
+ </div>
+ 
+{% endblock %}
